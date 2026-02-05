@@ -1,0 +1,11 @@
+numpy>=1.21.0
+sounddevice>=0.4.5  # Much easier to install than pyaudio on Windows!
+
+# Uncomment based on your model framework:
+# tensorflow>=2.8.0  # For TensorFlow/Keras models
+# torch>=1.10.0      # For PyTorch models
+# onnxruntime>=1.10.0  # For ONNX models
+
+# Optional for audio preprocessing:
+# librosa>=0.9.0     # For MFCC and other audio features
+# scipy>=1.7.0       # For signal processing
